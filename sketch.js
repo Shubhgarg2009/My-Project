@@ -190,7 +190,7 @@ question1.visible=false;
     g9=SpriteCreation(600,500,500,20)
     g10=SpriteCreation(535,110,190,20)
     g11=SpriteCreation(640,225,20,250)
-    g12=SpriteCreation(840,340,400,20)
+    g12=SpriteCreation(windowWidth/2+650,340,windowWidth,20)
     
 
 
