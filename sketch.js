@@ -361,11 +361,6 @@ ghost1.bounceOff(edges);
 
       if(pacman.isTouching(coin1)){
         coin1.visible=false;
-        coin2.visible=false;
-        coin3.visible=false;
-        coin4.visible=false;
-        coin5.visible=false;
-      coin6.visible=false;
       }
       if(pacman.isTouching(coin2)){
         coin2.visible=false;
@@ -415,7 +410,7 @@ ghost1.bounceOff(edges);
         option21.visible=false;
         option22.visible=false;
         question2.visible=false;
-
+        gameState = 'level3';
       
      
    }
